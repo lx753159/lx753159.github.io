@@ -42,9 +42,9 @@ nav:
       全部笔记: /notes/ || fas fa-pen
       分类: /categories/ || fas fa-folder-open
       标签: /tags/ || fas fa-tags
-    经验: /experience/ || fas fa-lightbulb
-    资源: /downloads/ || fas fa-download
-    关于: /about/ || fas fa-user
+    经验: /experience/
+    资源: /downloads/
+    关于: /about/
 
   # Right button
   # 右侧按钮
@@ -64,14 +64,14 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 从零到嵌入式
+    title: 🌿 从零到嵌入式
     desc:
-      一个零基础小白的嵌入式成长之路
-      - 记录每次点亮LED的喜悦
-      - 分享所有踩过的坑与收获
-      - STM32 · Keil · Proteus 从入门到精通
+      薄荷奶白 · 小清新学习笔记
+      - 🌱 从点亮第一个LED开始
+      - 📝 记录每一次踩坑与成长
+      - 🛠️ STM32 · Keil · Proteus 实战手册
   group:
-    热门: /tags/经验贴/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    热门: /tags/经验贴/ || fas fa-fire || linear-gradient(to right,#4ADE80,#86EFAC)
   recommendList:
     enable: true
     sup: 置顶
@@ -305,8 +305,8 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#ffc848" # dark
-  light: "#425AEF" # light
+  dark: "#4ADE80" # dark
+  light: "#4ADE80" # light
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -340,9 +340,9 @@ font:
 # When the user exits the page, modify the title
 # 当用户退出页面时，修改标题
 lure:
-  enable: false
-  jump: 404 Not Found
-  back: ヾ(≧∇≦*)ゝHey, hey, you fell for it.
+  enable: true
+  jump: 🌿 你要去哪？回来学习嵌入式！
+  back: 🍃 欢迎回来！继续加油~
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -446,7 +446,7 @@ typeit: false
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
@@ -474,7 +474,7 @@ translate:
 # Right-Sidebar
 # 右下角悬停导航栏
 rightside:
-  enable: false
+  enable: true
   percent: false
   hide:
     enable: false
@@ -698,7 +698,7 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    - <style>/* 薄荷奶白小清新配色 */:root{--efu-main:#4ADE80;--efu-green:#4ADE80;--efu-logo-color:#4ADE80;--efu-blue:#86EFAC;--efu-cyan:#86EFAC;--efu-orange:#FBBF24;--efu-pink:#F472B6;--efu-purple:#A78BFA;--efu-red:#F87171;--efu-fontcolor:#1F2937;--efu-black:#1F2937;--efu-lighttext:#78716C;--efu-secondtext:#78716C;--efu-gray:#78716C;--efu-card-bg:#FFFFFF;--efu-secondbg:#F0FDF4;--efu-background:#F0FDF4;--efu-navbg:rgba(255,255,255,0.85);--efu-card-border:#E8F5E9;--efu-hovertext:#4ADE80;--efu-ahoverbg:rgba(74,222,128,0.08);--efu-scrollbar:rgba(74,222,128,0.25);--efu-maskbg:rgba(31,41,55,0.3);--efu-maskbgdeep:rgba(31,41,55,0.5);--btn-bg:#4ADE80;--btn-color:#fff;--btn-hover-color:#86EFAC;--blockquote-bg:#F0FDF4;--blockquote-color:#4ADE80;--card-box-shadow:0 2px 12px rgba(74,222,128,0.06);--card-hover-box-shadow:0 6px 24px rgba(74,222,128,0.12);--efu-post-blockquote-bg:#F0FDF4;--efu-post-tabs-bg:#F0FDF4;--efu-card-btn-bg:#F0FDF4}body[data-theme="dark"]{--efu-main:#4ADE80;--efu-fontcolor:#E2E8F0;--efu-black:#E2E8F0;--efu-lighttext:#94A3B8;--efu-secondtext:#94A3B8;--efu-card-bg:#1E293B;--efu-secondbg:#0F172A;--efu-background:#0F172A;--efu-navbg:rgba(15,23,42,0.9);--efu-card-border:#334155;--blockquote-bg:#1E293B;--efu-post-blockquote-bg:#1E293B}.banners-title-big{background:linear-gradient(135deg,#4ADE80,#86EFAC);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.todayCard{border:2px solid rgba(74,222,128,0.15);transition:all .3s ease}.todayCard:hover{border-color:#4ADE80;transform:translateY(-2px)}.recent-post-item{border-radius:12px;border:1px solid #E8F5E9;transition:all .3s ease}.recent-post-item:hover{border-color:#4ADE80;box-shadow:0 8px 30px rgba(74,222,128,0.1)}.card-widget{border-radius:12px;border:1px solid #E8F5E9}.avatar img{border:3px solid #4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,0.1)}#footer{background:linear-gradient(180deg,#F0FDF4 0%,#FFFFFF 100%);border-top:1px solid #E8F5E9}.category-bar-item.select a{background:linear-gradient(135deg,#4ADE80,#86EFAC)!important;color:#fff!important;border-radius:20px}a{color:#4ADE80;transition:color .3s}a:hover{color:#86EFAC}::selection{background:rgba(74,222,128,0.2);color:#1F2937}::-webkit-scrollbar-thumb{background:rgba(74,222,128,0.3);border-radius:8px}::-webkit-scrollbar-thumb:hover{background:rgba(74,222,128,0.5)}.article-title{color:#1F2937}.article-title:hover{color:#4ADE80}.banners-link-btn{border-radius:20px!important}#site-name .title{font-weight:700;letter-spacing:0.5px}#category-bar{background:#F0FDF4;border-radius:12px;padding:8px;margin-bottom:20px}.post-tools-button{border-radius:8px}body[data-theme="dark"] .recent-post-item{border-color:#334155}body[data-theme="dark"] .recent-post-item:hover{border-color:#4ADE80}body[data-theme="dark"] .card-widget{border-color:#334155}body[data-theme="dark"] #footer{background:linear-gradient(180deg,#0F172A 0%,#1E293B 100%);border-top-color:#334155}body[data-theme="dark"] .article-title{color:#E2E8F0}body[data-theme="dark"] #category-bar{background:#1E293B}</style>
 
   # Insert in body
   # 插入到 body
