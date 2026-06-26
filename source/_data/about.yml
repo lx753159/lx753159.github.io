@@ -1,0 +1,93 @@
+# =============================================
+# 关于页数据 — Solitude Theme
+# =============================================
+
+title: 李响
+
+# --- 作者信息 ---
+authorinfo:
+  image: /img/logo.svg
+  leftTags:
+    - 嵌入式
+    - STM32
+  rightTags:
+    - Keil
+    - Proteus
+
+# --- 内容介绍 ---
+contentinfo:
+  sup: 你好，我是
+  name: 李响
+  title: 一个从零开始的嵌入式学习者
+  tip: 关于我
+  slogan: 每个人都是从小白开始的
+  mask:
+    - 种一棵树最好的时间是十年前
+    - 其次是现在
+    - 每个大神都曾是菜鸟
+    - 路虽远，行则将至
+
+# --- 技能标签 ---
+skills:
+  title: 技能
+  subtitle: 正在学习与掌握的技能
+  tags:
+    - title: STM32
+      color: "#F2867E"
+      icon: fas fa-microchip
+      icon_color: "#fff"
+    - title: Keil MDK5
+      color: "#F5A094"
+      icon: fas fa-code
+      icon_color: "#fff"
+    - title: Proteus
+      color: "#FCE9D8"
+      icon: fas fa-bolt
+      icon_color: "#F2867E"
+    - title: C 语言
+      color: "#E0F0E8"
+      icon: fas fa-cube
+      icon_color: "#5B8C6F"
+    - title: Git
+      color: "#FCE8E3"
+      icon: fab fa-git-alt
+      icon_color: "#F2867E"
+    - title: GitHub
+      color: "#FCE9D8"
+      icon: fab fa-github
+      icon_color: "#F2867E"
+    - title: Markdown
+      color: "#E0F0E8"
+      icon: fab fa-markdown
+      icon_color: "#5B8C6F"
+    - title: VS Code
+      color: "#F5A094"
+      icon: fas fa-laptop-code
+      icon_color: "#fff"
+
+# --- 学习经历 ---
+careers:
+  title: 学习经历
+  subtitle: 学习路线与规划
+  image: /img/default.svg
+  items:
+    - school: 自学嵌入式开发
+      major: STM32 · Keil · Proteus
+      color: "#F2867E"
+    - school: 在线课程与文档
+      major: 嵌入式 C 语言 · 电路基础
+      color: "#F5A094"
+
+# --- 座右铭 ---
+motto:
+  title: 座右铭
+  prefix: 路虽远，
+  content: 行则将至
+
+# --- 专业方向 ---
+expertise:
+  title: 专业方向
+  prefix: 专注于
+  specialist: 嵌入式开发
+  content: 的学习与实践，目标是成为一名能够独立完成项目的
+  level: 嵌入式工程师
