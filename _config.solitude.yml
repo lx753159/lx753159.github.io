@@ -64,21 +64,14 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 🌿 从零到嵌入式
+    title: 从零到嵌入式
     desc:
-      薄荷奶白 · 小清新学习笔记
-      - 🌱 从点亮第一个LED开始
-      - 📝 记录每一次踩坑与成长
-      - 🛠️ STM32 · Keil · Proteus 实战手册
+      记录从点亮第一个LED开始的每一步成长
+      — STM32 · Keil · Proteus 实战笔记
   group:
-    热门: /tags/经验贴/ || fas fa-fire || linear-gradient(to right,#4ADE80,#86EFAC)
+    开始学习: /notes/ || heroicons:academic-cap || linear-gradient(135deg,#6366F1,#4F46E5)
   recommendList:
-    enable: true
-    sup: 置顶
-    title: 一个零基础小白的嵌入式学习笔记
-    url: https://lx753159.github.io/about/
-    img: /img/default.svg
-    color: "none"
+    enable: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -305,8 +298,8 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#4ADE80" # dark
-  light: "#4ADE80" # light
+  dark: "#6366F1" # dark
+  light: "#6366F1" # light
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -329,10 +322,10 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+  font-family: "Inter, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
   # Code font
   # 代码字体
-  code-font-family: '"monospace", monospace'
+  code-font-family: '"JetBrains Mono", "Fira Code", "monospace", monospace'
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -698,11 +691,14 @@ extends:
   # Insert in head
   # 插入到 head
   head:
+    - <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    - <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.3.0/dist/iconify-icon.min.js"></script>
     - <link rel="stylesheet" href="/css/custom.css">
 
   # Insert in body
   # 插入到 body
   body:
+    - <script>document.addEventListener('DOMContentLoaded',function(){requestAnimationFrame(function(){document.documentElement.classList.add('anim-ready')})});document.addEventListener('pjax:complete',function(){requestAnimationFrame(function(){document.documentElement.classList.add('anim-ready')})})</script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
