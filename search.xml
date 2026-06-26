@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>一个零基础小白的嵌入式学习网站，诞生了！</title>
+      <link href="/2026/06/26/hello-world/"/>
+      <url>/2026/06/26/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h2 id="为什么要做这个网站？"><a href="#为什么要做这个网站？" class="headerlink" title="为什么要做这个网站？"></a>为什么要做这个网站？</h2><p>我是一个嵌入式开发的<strong>零基础初学者</strong>。在开始学习 STM32、Keil 这些工具的时候，我发现：</p><ol><li>网上教程很多，但真正从「零」开始的很少</li><li>很多教程跳步严重，新手根本跟不上</li><li>安装包和工具分散各处，找起来很费时间</li></ol><p>于是我想：<strong>为什么不自己做一个网站呢？</strong></p><p>把自己从零学起的过程完整记录下来，同时也把用到的工具、安装包统一整理好，方便自己，也方便后来人。</p><h2 id="这个网站是怎么搭的？"><a href="#这个网站是怎么搭的？" class="headerlink" title="这个网站是怎么搭的？"></a>这个网站是怎么搭的？</h2><p>完全免费，不需要买服务器，技术栈如下：</p><table><thead><tr><th>工具</th><th>用途</th></tr></thead><tbody><tr><td><strong>Hexo</strong></td><td>静态博客框架，把 Markdown 文章转成网页</td></tr><tr><td><strong>Solitude</strong></td><td>Hexo 主题，美观且中文支持好</td></tr><tr><td><strong>GitHub Pages</strong></td><td>免费托管，域名就是 <code>lx753159.github.io</code></td></tr><tr><td><strong>GitHub Releases</strong></td><td>存放安装包等大文件</td></tr></tbody></table><h2 id="网站有哪些内容？"><a href="#网站有哪些内容？" class="headerlink" title="网站有哪些内容？"></a>网站有哪些内容？</h2><ul><li>📝 <strong>学习笔记</strong> — 按分类整理的嵌入式学习笔记</li><li>💡 <strong>经验贴</strong> — 踩坑记录和解决方案</li><li>📦 <strong>资源下载</strong> — 开发工具、芯片手册、示例代码</li></ul><h2 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h2><p>网站框架搭好了，接下来要开始真正的嵌入式学习。第一个目标：</p><blockquote><p>🎯 <strong>在 Keil5 中新建 STM32 工程，点亮一个 LED，并在 Proteus 中仿真成功！</strong></p></blockquote><hr><blockquote><p>🚀 种一棵树最好的时间是十年前，其次是现在。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+          <category> 网站搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> GitHub Pages </tag>
+            
+            <tag> Solitude </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 零基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
