@@ -64,12 +64,12 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 从零到嵌入式
+    title: 从零到嵌入式 ✨
     desc:
-      记录从点亮第一个LED开始的每一步成长
-      — STM32 · Keil · Proteus 实战笔记
+      点亮第一个LED，开启嵌入式之旅
+      — STM32 · Keil · Proteus
   group:
-    开始学习: /notes/ || heroicons:academic-cap || linear-gradient(135deg,#6366F1,#4F46E5)
+    📖 开始学习: /notes/ || heroicons:academic-cap || linear-gradient(135deg,#F2867E,#F5A094)
   recommendList:
     enable: false
 # --------------------------- end ---------------------------
@@ -691,14 +691,15 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    - <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     - <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.3.0/dist/iconify-icon.min.js"></script>
     - <link rel="stylesheet" href="/css/custom.css">
 
   # Insert in body
   # 插入到 body
   body:
-    - <script>document.addEventListener('DOMContentLoaded',function(){requestAnimationFrame(function(){document.documentElement.classList.add('anim-ready')})});document.addEventListener('pjax:complete',function(){requestAnimationFrame(function(){document.documentElement.classList.add('anim-ready')})})</script>
+    - <div class="floating-bg"><div class="orb"></div><div class="orb"></div><div class="orb"></div><div class="orb"></div></div>
+    - <script>!function(){function e(){document.documentElement.classList.add("anim-ready")}function t(){let t=document.createElement("div");t.className="intro-overlay",t.innerHTML='<div class="intro-icon float">💡</div>',document.body.appendChild(t),setTimeout(function(){t.classList.add("hide"),e(),setTimeout(function(){t.remove()},1200)},800)}function n(){let e=document.querySelectorAll(".recent-post-item,.card-widget");e.length&&(e.forEach(function(e){e.classList.add("anim-up")}),function(e,t){let n=new IntersectionObserver(function(e){e.forEach(function(e){e.isIntersecting&&(e.target.style.animationPlayState="running",n.unobserve(e.target))})},{threshold:.15});e.forEach(function(e){e.style.animationPlayState="paused",n.observe(e)})}(e))}window.addEventListener("DOMContentLoaded",function(){sessionStorage.getItem("introShown")?(e(),setTimeout(n,100)):(t(),sessionStorage.setItem("introShown","1")),setTimeout(n,800)}),document.addEventListener("pjax:complete",function(){e(),setTimeout(n,200)})}();</script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
