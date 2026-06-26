@@ -2,29 +2,73 @@
 title: 学习笔记
 date: 2026-06-26 23:03:24
 type: notes
-description: 嵌入式学习笔记 — 从零基础开始
+description: 嵌入式学习笔记 — 从零基础开始，记录每一步成长
+aside: false
 ---
 
-## 📝 学习笔记
+<div class="page-hero notes-hero">
+  <div class="page-hero-icon">📝</div>
+  <h1 class="page-hero-title">学习笔记</h1>
+  <p class="page-hero-desc">从零开始学习嵌入式的完整记录<br>按分类整理，方便查阅</p>
+</div>
 
-这里是我从零开始学习嵌入式的所有笔记，按分类整理。
+<div class="topic-grid">
+  <a href="/categories/学习笔记/" class="topic-card glass">
+    <div class="topic-icon-wrap" style="background:var(--c-pink)">
+      <iconify-icon icon="mdi:book-open-page-variant-outline" width="28" height="28" style="color:var(--c-accent)"></iconify-icon>
+    </div>
+    <div class="topic-info">
+      <h3>全部笔记</h3>
+      <p>浏览所有学习笔记，按时间排列</p>
+    </div>
+  </a>
+  <a href="/categories/" class="topic-card glass">
+    <div class="topic-icon-wrap" style="background:var(--c-yellow)">
+      <iconify-icon icon="mdi:folder-outline" width="28" height="28" style="color:#E8A838"></iconify-icon>
+    </div>
+    <div class="topic-info">
+      <h3>按分类查看</h3>
+      <p>STM32 / Keil / Proteus / C 语言</p>
+    </div>
+  </a>
+  <a href="/tags/" class="topic-card glass">
+    <div class="topic-icon-wrap" style="background:var(--c-mint)">
+      <iconify-icon icon="mdi:tag-outline" width="28" height="28" style="color:#5B8C6F"></iconify-icon>
+    </div>
+    <div class="topic-info">
+      <h3>按标签查看</h3>
+      <p>按主题标签快速定位感兴趣的内容</p>
+    </div>
+  </a>
+  <a href="/archives/" class="topic-card glass">
+    <div class="topic-icon-wrap" style="background:var(--c-yellow)">
+      <iconify-icon icon="mdi:calendar-outline" width="28" height="28" style="color:#E8A838"></iconify-icon>
+    </div>
+    <div class="topic-info">
+      <h3>归档时间线</h3>
+      <p>按月份查看历史文章</p>
+    </div>
+  </a>
+</div>
 
-### 📂 笔记分类
-
-| 分类 | 内容 |
-|------|------|
-| **STM32** | STM32F103 单片机开发，从寄存器到 HAL 库 |
-| **Keil** | Keil5 MDK 使用技巧、工程配置、常见报错解决 |
-| **Proteus** | 电路仿真入门，原理图绘制与仿真调试 |
-| **C 语言** | 嵌入式 C 语言要点：指针、位运算、结构体 |
-| **工具链** | Git、GitHub、串口助手、逻辑分析仪等工具 |
-
-### 📌 学习原则
-
-1. **每一步都截图** — 方便自己回顾，也方便别人跟着做
-2. **记录踩坑过程** — 报错信息和解决方法是最宝贵的经验
-3. **理论与实践结合** — 每学一个知识点，都要在 Proteus 里仿真验证
-
----
-
-> 💡 点击顶部的「分类」或「标签」可以按主题筛选笔记。
+<div class="page-section">
+  <h2>📚 学习路线</h2>
+  <div class="roadmap">
+    <div class="roadmap-item done">
+      <div class="roadmap-dot"></div>
+      <div class="roadmap-content"><strong>环境搭建</strong><span>Keil MDK5 · Proteus · STM32CubeMX</span></div>
+    </div>
+    <div class="roadmap-item active">
+      <div class="roadmap-dot pulse"></div>
+      <div class="roadmap-content"><strong>基础入门</strong><span>GPIO · 中断 · 定时器 · 串口通信</span></div>
+    </div>
+    <div class="roadmap-item">
+      <div class="roadmap-dot"></div>
+      <div class="roadmap-content"><strong>进阶学习</strong><span>I2C · SPI · DMA · RTOS</span></div>
+    </div>
+    <div class="roadmap-item">
+      <div class="roadmap-dot"></div>
+      <div class="roadmap-content"><strong>项目实战</strong><span>综合项目 · 调试技巧 · 性能优化</span></div>
+    </div>
+  </div>
+</div>

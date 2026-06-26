@@ -3,40 +3,101 @@ title: 资源下载
 date: 2026-06-26 23:03:29
 type: downloads
 description: 嵌入式开发工具和资料下载
+aside: false
 ---
 
-## 📦 资源下载
+<div class="page-hero dl-hero">
+  <div class="page-hero-icon">📦</div>
+  <h1 class="page-hero-title">资源下载</h1>
+  <p class="page-hero-desc">嵌入式开发工具 · 芯片手册 · 示例代码<br>大文件托管在 GitHub Releases</p>
+</div>
 
-这里整理了学习嵌入式开发过程中用到的工具、手册和代码。
+<div class="page-section">
+  <h2>🔧 开发工具</h2>
+  <div class="dl-grid">
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-pink)"><iconify-icon icon="mdi:microsoft-visual-studio-code" width="24" height="24" style="color:var(--c-accent)"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>Keil MDK-ARM</strong>
+        <span>STM32 官方开发环境 · v5.38</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-yellow)"><iconify-icon icon="mdi:chip" width="24" height="24" style="color:#E8A838"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>Proteus</strong>
+        <span>电路仿真设计 · v8.15</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-mint)"><iconify-icon icon="mdi:cube-outline" width="24" height="24" style="color:#5B8C6F"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>STM32CubeMX</strong>
+        <span>代码生成工具 · v6.x</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-pink)"><iconify-icon icon="mdi:console-line" width="24" height="24" style="color:var(--c-accent)"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>串口调试助手</strong>
+        <span>UART 调试必备工具</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-### 🔧 开发工具
+<div class="page-section">
+  <h2>📖 芯片手册</h2>
+  <div class="dl-grid">
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-yellow)"><iconify-icon icon="mdi:file-document-outline" width="24" height="24" style="color:#E8A838"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>RM0008 参考手册</strong>
+        <span>STM32F103 系列</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-mint)"><iconify-icon icon="mdi:file-document-outline" width="24" height="24" style="color:#5B8C6F"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>数据手册</strong>
+        <span>STM32F103C8T6</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-pink)"><iconify-icon icon="mdi:file-document-outline" width="24" height="24" style="color:var(--c-accent)"></iconify-icon></div>
+      <div class="dl-card-info">
+        <strong>Cortex-M3 技术参考</strong>
+        <span>ARM 官方手册</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-| 工具 | 版本 | 说明 | 下载 |
-|------|------|------|------|
-| Keil MDK-ARM | 5.38 | STM32 开发环境 | 待上传 |
-| Proteus | 8.15 | 电路仿真软件 | 待上传 |
-| STM32CubeMX | 6.x | 代码生成工具 | 待上传 |
-| 串口调试助手 | - | UART 调试必备 | 待上传 |
-
-### 📖 芯片手册
-
-| 文档 | 芯片 | 下载 |
-|------|------|------|
-| 参考手册 RM0008 | STM32F103 | 待上传 |
-| 数据手册 | STM32F103C8T6 | 待上传 |
-| Cortex-M3 技术参考手册 | ARM | 待上传 |
-
-### 💻 示例代码
-
-| 项目 | 描述 | 下载 |
-|------|------|------|
-| LED 点灯实验 | Keil 工程 + Proteus 仿真 | 待上传 |
-| 按键检测 | GPIO 输入基础 | 待上传 |
-
-### 📥 如何下载大文件
-
-安装包等大文件存放在 **GitHub Releases** 中，点击下载链接后会自动跳转到 GitHub 下载页面。
-
----
-
-> ⚠️ 资源正在陆续上传中，请关注更新。
+<div class="page-section">
+  <h2>💻 示例代码</h2>
+  <div class="dl-grid">
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-pink)">💡</div>
+      <div class="dl-card-info">
+        <strong>LED 点灯实验</strong>
+        <span>Keil 工程 + Proteus 仿真</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+    <div class="dl-card glass">
+      <div class="dl-card-icon" style="background:var(--c-yellow)">🔘</div>
+      <div class="dl-card-info">
+        <strong>按键检测</strong>
+        <span>GPIO 输入基础</span>
+        <a class="dl-btn" href="#">待上传</a>
+      </div>
+    </div>
+  </div>
+</div>
