@@ -21,7 +21,7 @@ site:
   name:
     class: text # text / i_class / img
     custom: 🔧 从零到嵌入式
-  icon: /img/pwa/favicon.png # Site icon / 网站图标
+  icon: /img/pwa/favicon.svg # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -77,7 +77,7 @@ hometop:
     sup: 置顶
     title: 一个零基础小白的嵌入式学习笔记
     url: https://lx753159.github.io/about/
-    img: /img/default.avif
+    img: /img/default.svg
     color: "none"
 # --------------------------- end ---------------------------
 
@@ -107,7 +107,7 @@ aside:
   # 信息卡
   my_card:
     author:
-      img: /img/logo.png # url
+      img: /img/logo.svg # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
     description: 嵌入式零基础自学中 | 从点亮第一个LED开始
@@ -217,7 +217,7 @@ post:
     # 版权
     copyright:
       enable: true
-      author: /img/logo.png # url
+      author: /img/logo.svg # url
       # License
       # 许可证
       license: CC BY-NC-SA 4.0
@@ -521,7 +521,7 @@ footer:
 # 404 page
 # 404 页面
 errorpage:
-  img: /img/404.avif
+  img: /img/404.svg
   text: =awa= Page Not Found # Text
   recommendList: true
 # --------------------------- end ---------------------------
@@ -578,7 +578,7 @@ lazyload:
   enable: false
   field: site
   placeholder: ""
-  errorimg: /img/error_load.avif
+  errorimg: /img/error_load.svg
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -590,7 +590,7 @@ loading:
   fullpage: false
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: /img/favicon.png
+  favicon: /img/pwa/favicon.svg
   # Pace loading
   # Pace 加载
   pace: true
